@@ -7,6 +7,7 @@ import About from './Components/About';
 function App() {
   return (
     <>
+    <div className='bg-cream mx-auto font-Rubik text-black text-[19px]'> 
 
     <BrowserRouter>
     <Navbar/>
@@ -15,6 +16,7 @@ function App() {
 
     </Routes>
     </BrowserRouter>
+    </div>
     </>
   );
 }

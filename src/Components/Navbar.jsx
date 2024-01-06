@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <>
 
-    <nav className='h-[60px] w-full bg-brown flex text-cream items-center justify-between px-3 font-Rubik fixed'>
+    <nav className='h-[60px] w-full bg-brown flex text-cream items-center justify-between px-3 font-Rubik fixed  max-w-[2000px]'>
       <div className='flex items-center'>
          <Link className='text-[34px] font-bold' to='/'>HET PATEL</Link>
          <Link className='text-[22px] ml-9 font-thin md:hidden' to='/'>About</Link>
@@ -33,7 +33,7 @@ function Navbar() {
 
 
     {/* For mobile view */}
-    <div className='hidden sm:block'>
+    <div className='hidden md:block'>
     <Menu right>
      
       <Link id="home" className="menu-item  text-[22px] text-cream mb-9 mt-10" to="/">

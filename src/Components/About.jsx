@@ -9,10 +9,11 @@ import dsa from '../Assets/dsa.svg'
 import web_development from '../Assets/web_development.svg'
 import graphic_design from '../Assets/graphic_design.svg'
 
+
 function About() {
     return (
         <>
-        <div className='font-Rubik text-black text-[19px] pt-[60px] w-full max-w-[2000px] px-20'>
+        <div className='font-Rubik text-black text-[19px] w-full max-w-[2000px] px-20'>
 
 
             {/* first section */}
@@ -76,9 +77,7 @@ function About() {
                     <img src={web_development} alt="" />
                     <span className='text-xl m-4'>Web Development</span>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
+                
             </div>
 
 

@@ -5,11 +5,13 @@ import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Contact from './Components/Contact';
+import Projects from './Components/Projects';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <>
-    <div className='bg-cream mx-auto font-Rubik text-black text-[19px]'> 
+    <div className='bg-cream flex flex-col items-center font-Rubik text-black text-[19px]'> 
 
     <BrowserRouter>
     <Navbar/>
@@ -17,8 +19,10 @@ function App() {
     <Route path="/" element={<About/>} />
     <Route path="/skills" element={<Skills/>} />
     <Route path="/contact" element={<Contact/>} />
+    <Route path="/Projects" element={<Projects/>} />
 
     </Routes>
+    <Footer/>
     </BrowserRouter>
     </div>
     </>

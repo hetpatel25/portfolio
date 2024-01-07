@@ -32,7 +32,7 @@ function Contact() {
           <Link className='flex' to='/'><img src={github1} alt="" /></Link>
         </div>
     </div>
-    <Footer/>
+
     </>
   )
 }

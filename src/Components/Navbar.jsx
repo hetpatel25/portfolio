@@ -17,12 +17,12 @@ function Navbar() {
   return (
     <>
 
-    <nav className='h-[60px] w-full bg-brown flex text-cream items-center justify-between px-3 font-Rubik sticky top-0 max-w-[2000px]'>
+    <nav className='h-[60px] w-full bg-brown flex text-cream items-center justify-between px-3 font-Rubik sticky top-0 max-w-[2000px] z-10' >
       <div className='flex items-center'>
          <Link className='text-[34px] font-bold' to='/'>HET PATEL</Link>
          <Link className='text-[22px] ml-9 font-thin md:hidden' to='/'>About</Link>
          <Link className='text-[22px] ml-9 md:hidden' to='/skills'>Skills</Link>
-         <Link className='text-[22px] ml-9 md:hidden' to='/'>Projects</Link>
+         <Link className='text-[22px] ml-9 md:hidden' to='/projects'>Projects</Link>
          <Link className='text-[22px] ml-9 md:hidden' to='/'>Resume</Link>
       </div>
 

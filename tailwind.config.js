@@ -30,6 +30,11 @@ module.exports = {
     fontFamily: {
       Rubik: ["Rubik", "sans-serif"],
      },
+     extend: {
+      boxShadow: {
+        's': '0px 1px 2px 0px rgba(111, 91, 62, 1), 0px 0px 0px 1px rgba(111, 91, 62, 1)',
+      }
+    }
   },
   plugins: [],
 }

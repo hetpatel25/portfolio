@@ -58,7 +58,7 @@ function Skills() {
 
 
             </div>
-            <Footer />
+
         </>
     )
 }

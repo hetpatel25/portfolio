@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-do
 
 import close from '../Assets/close.svg';
 import './Navbar.css'
+import menu from '../Assets/menu.svg'
 
 function Navbar() {
   const [settingsVisible, setSettingsVisible] = useState(false);
@@ -17,10 +18,10 @@ function Navbar() {
   return (
     <>
 
-    <nav className='h-[60px] w-full bg-brown flex text-cream items-center justify-between px-3 font-Rubik sticky top-0 max-w-[2000px] z-10' >
+    <nav className='h-[60px] w-full bg-brown flex text-cream items-center justify-between px-3 sticky top-0 max-w-[2000px] z-10 md:h-[50px] text-[32px]' >
       <div className='flex items-center'>
-         <Link className='text-[34px] font-bold' to='/'>HET PATEL</Link>
-         <Link className='text-[22px] ml-9 font-thin md:hidden' to='/'>About</Link>
+         <Link className='text-[34px] font-extrabold' to='/'>HET PATEL</Link>
+         <Link className='text-[22px] ml-9 md:hidden' to='/'>About</Link>
          <Link className='text-[22px] ml-9 md:hidden' to='/skills'>Skills</Link>
          <Link className='text-[22px] ml-9 md:hidden' to='/projects'>Projects</Link>
          <Link className='text-[22px] ml-9 md:hidden' to='/'>Resume</Link>
@@ -34,7 +35,7 @@ function Navbar() {
 
     {/* For mobile view */}
     <div className='hidden md:block'>
-    <Menu right>
+    <Menu right pageWrapId={ "page-wrap" } customBurgerIcon={ <img src={menu} /> }>
      
       <Link id="home" className="menu-item  text-[22px] text-cream mb-9 mt-10" to="/">
         About
@@ -47,13 +48,13 @@ function Navbar() {
       </Link>
       <Link className="menu-item text-[22px] text-cream mb-9" to="/contact ">Resume</Link>
 
-      {/* <a
+       {/* <a
         onClick={showSettings}
         className="menu-item--small"
         href=""
       >
         Settings
-      </a> */}
+      </a>  */}
     </Menu>
     </div>
     </>

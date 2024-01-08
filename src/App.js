@@ -11,7 +11,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <>
-    <div className='bg-cream flex flex-col items-center font-Rubik text-black text-[19px]'> 
+    <div className='bg-cream flex flex-col items-center font-Rubik font-light text-black text-[19px]'> 
 
     <BrowserRouter>
     <Navbar/>

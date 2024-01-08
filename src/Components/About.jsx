@@ -13,7 +13,7 @@ import graphic_design from '../Assets/graphic_design.svg'
 function About() {
     return (
         <>
-        <div className='font-Rubik text-black text-[19px] w-full max-w-[2000px] px-20'>
+        <div className='w-full max-w-[2000px] px-20'>
 
 
             {/* first section */}

@@ -1,7 +1,7 @@
 .bm-burger-button {
     position: fixed;
-    width: 36px;
-    height: 30px;
+    width: 25px;
+    height:25px;
     right: 20px;
     top: 15px;
   }
@@ -9,6 +9,8 @@
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
     background: #F9F6F0;
+    /* width: 30px;
+    height: 25px; */
   }
   
   /* Color/shape of burger icon bars on hover*/

@@ -18,9 +18,9 @@ function Navbar() {
   return (
     <>
 
-    <nav className='h-[60px] w-full bg-brown flex text-cream items-center justify-between px-3 sticky top-0 max-w-[2000px] z-10 md:h-[50px] text-[32px]' >
+    <nav className='h-[60px] w-full bg-brown flex text-cream items-center justify-between px-3 sticky top-0 max-w-[2000px] z-10 md:h-[50px]' >
       <div className='flex items-center'>
-         <Link className='text-[34px] font-extrabold' to='/'>HET PATEL</Link>
+         <Link className='text-[34px] font-extrabold md:text-[30px] md:font-bold' to='/'>HET PATEL</Link>
          <Link className='text-[22px] ml-9 md:hidden' to='/'>About</Link>
          <Link className='text-[22px] ml-9 md:hidden' to='/skills'>Skills</Link>
          <Link className='text-[22px] ml-9 md:hidden' to='/projects'>Projects</Link>

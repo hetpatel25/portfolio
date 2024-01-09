@@ -13,27 +13,26 @@ import graphic_design from '../Assets/graphic_design.svg'
 function About() {
     return (
         <>
-        <div className='w-full max-w-[2000px] px-20'>
+        <div className='w-full max-w-[2000px] px-20 md:px-4'>
 
 
             {/* first section */}
-            <div className="flex h-[600px]  items-center">
+            <div className="flex h-[600px]  items-center md:flex-col md:items-start md:h-auto">
 
-                <div className='w-1/3 flex justify-start 2xl:w-1/2'>
-                    {/* <img src={me} className='w-[400px] h-[400px] border-[1.6px] border-black rounded-2xl xl:h-[350px] xl:w-[350px]' alt="" /> */}
+                <div className='w-1/3 flex justify-start 2xl:w-1/2 md:w-full md:my-6'>
+                    <img src={me} className='w-[400px] h-[400px] border-[1.6px] border-black rounded-2xl md:w-64 md:h-64 xl:h-[350px] xl:w-[350px]' alt="" />
                 </div>
-                <div className='flex flex-col w-10/12 pl-12'>
+                <div className='flex flex-col w-10/12 pl-12 md:w-full md:items-start md:p-0'>
 
-                    <h2 className='text-[48px] text-brown mb-0'>Hi, I'am Het Patel</h2>
-                    <h3 className='text-[32px]'>A Developer</h3>
+                    <h2 className='text-[48px] text-brown mb-0 md:text-4xl md:my-1'>Hi, I'am Het Patel</h2>
+                    <h3 className='text-[32px] md:text-[28px] md:mb-2'>A Developer</h3>
 
-                    <p>
-                        Currently pursuing my Bachelors at DA-IICT, Gandhinagar, specializing in Information and Communication Technology (ICT).
-                        Primarily interested in Web Development and Data Structures & Algorithms (DSA).
-                        <br />
-                        <br />
-                        I enjoy learning new skills and implementing them in real life!
-                    </p>
+                    <div>
+                       <p>Currently pursuing my Bachelors at DA-IICT, Gandhinagar, specializing in Information and Communication Technology (ICT).
+                        Primarily interested in Web Development and Data Structures & Algorithms (DSA).</p> 
+                       
+                        <p className='mt-2'>I enjoy learning new skills and implementing them in real life!</p>
+                    </div>
 
                     <p className='flex mt-4'>
                         <Link to='/'><img src={linkdn} className='mr-4' alt="" /></Link>
@@ -44,7 +43,7 @@ function About() {
             </div>
 
             {/* second section */}
-            <h2 className='text-brown text-[50px] flex'>ABOUT ME <span className='block w-1/2 border-b-4 relative bottom-9 left-6'></span></h2>
+            <h2 className='text-brown text-[50px] flex md:text-[40px] md:mt-16 md:leading-none'>ABOUT ME <span className='block w-1/2 border-b-4 relative bottom-9 left-6 md:left-2 md:w-3/4'></span></h2>
             <div className='max-w-6xl mb-7'>
                 <p className='mt-2'>Hello! I’m Het from, Bharuch.</p>
                 <p className='mt-2'>I am a pre final year student at DA-IICT(Dhirubhai Ambani Institute of
@@ -60,7 +59,7 @@ function About() {
             </div>
 
             <h3 className='text-2xl font-semibold mb-5'>INTERESTS</h3>
-            <div className='flex w-full justify-start flex-wrap gap-x-32 gap-y-9 mb-6'>
+            <div className='flex w-full justify-start flex-wrap gap-x-32 gap-y-9 mb-6 md:gap-y-5'>
                 <div className='w-[320px] h-[70px] bg-shadow flex justify-start items-center px-4'>
                     <img src={competitive_programming}  alt="" />
                     <span className='text-xl m-4'>Competitive Programming</span>

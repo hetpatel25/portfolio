@@ -40,7 +40,7 @@ function Navbar() {
 
     {/* For mobile view */}
     <div className='hidden md:block'>
-    <Menu right pageWrapId={ "page-wrap" } customBurgerIcon={ <img src={menu} /> } isOpen={menuOpenState} onOpen={ handleMenu }>
+    <Menu right pageWrapId={ "page-wrap" } customBurgerIcon={ <img src={menu} /> } isOpen={menuOpenState} onOpen={ handleMenu } onClose={handleMenu}>
      
       <Link id="home" className="menu-item  text-[22px] text-cream mb-9 mt-10" to="/"  onClick={handleMenu}>
         About

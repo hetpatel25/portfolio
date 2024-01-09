@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-do
 import location from '../Assets/location.svg'
 function Footer() {
   return (
-    <div className='w-full bg-beige flex justify-between px-8 py-3 mt-36 gap-x-28 border-t-2 text-lg leading-snug lg:flex-wrap lg:items-baseline lg:gap-x-2 sm:flex-col sm:items-center sm:gap-y-5'>
-      <div className='flex flex-col w-1/3  lg:pl-9 sm:w-full sm:items-center'>
-        <Link to='/'>Contact me</Link>
+    <div className='w-full bg-beige flex justify-between px-8 py-3 mt-36 gap-x-28 border-t-2 text-lg leading-snug lg:flex-wrap lg:items-baseline lg:gap-x-2 sm:flex-col sm:items-center sm:gap-y-3 sm:leading-tight sm:mt-20'>
+      <div className='flex flex-col w-1/3  lg:pl-9 sm:w-full sm:items-center sm:pl-0'>
+        <Link to='/contact'>Contact me</Link>
         <Link to='/'>Home page</Link>
     
       </div>

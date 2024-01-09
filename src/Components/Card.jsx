@@ -21,12 +21,12 @@ function Card(props) {
 
         {/* box-1 */}
         <div className='flex flex-col justify-between h-[450px] rounded-[35px] bg-shadow'>
-          <div className='h-56'>
+          <div className='h-56 md:h-auto'>
             <img src={img} alt="" />
           </div>
 
-          <p className='px-4 pt-4 text-xl text-brown font-semibold'>{title}</p>
-          <p className='px-4 py-1 leading-5 font-light text-[15px]'>{description.slice(0, 200)}...</p>
+          <p className='px-4 pt-4 text-xl text-brown font-semibold md:px-3 md:pt-0'>{title}</p>
+          <p className='px-4 py-1 leading-5 font-light text-[15px] md:px-3 md:py-0'>{description.slice(0, 200)}...</p>
           <div className='flex gap-x-1 items-center justify-center h-10 bg-brown text-xl text-cream  cursor-pointer' onClick={handleButton}>
             <img src={info} alt="" />
             <p onClick={handleButton}>More Info</p>
@@ -34,7 +34,7 @@ function Card(props) {
         </div>
 
         {/* box-2 */}
-        <div className={`transition-all duration-500 ease-out relative ${toggle? 'top-[-100%]' : 'top-0'} bg-shadow h-[450px] flex flex-col justify-between p-6 overflow-x-hidden overflow-auto rounded-2xl`}>
+        <div className={`transition-all duration-500 ease-out relative ${toggle? 'top-[-100%]' : 'top-0'} bg-shadow h-[450px] flex flex-col justify-between p-6 overflow-x-hidden overflow-auto rounded-2xl md:px-3`}>
         <img src={close} className='w-6 sticky right-0 cursor-pointer'  onClick={handleButton} alt="" />
         <ul className='text-black text-[15px]'>
           <li>Tools: NodeJS, ReactJS</li>

@@ -35,16 +35,16 @@ function About() {
                     </div>
 
                     <p className='flex mt-4'>
-                        <Link to='/'><img src={linkdn} className='mr-4' alt="" /></Link>
-                        <Link to='/'><img src={github} alt="" /></Link>
+                        <a href='https://www.linkedin.com/in/het-patel-532877257/' target='_blank' rel='noreferrer'><img src={linkdn} className='mr-4' alt="" /></a>
+                        <a href='https://github.com/hetpatel25' target='_blank' rel='noreferrer'><img src={github} alt="" /></a>
                     </p>
                 </div>
 
             </div>
 
             {/* second section */}
-            <h2 className='text-brown text-[50px] flex md:text-[40px] md:mt-16 md:leading-none'>ABOUT ME <span className='block w-1/2 border-b-4 relative bottom-9 left-6 md:left-2 md:w-3/4'></span></h2>
-            <div className='max-w-6xl mb-7'>
+            <h2 className='text-brown text-[50px] flex md:text-[40px] md:mt-10 md:leading-none md:overflow-hidden'>ABOUT ME <span className='block w-1/2 border-b-4 relative bottom-9 left-6 md:left-2 md:w-3/4'></span></h2>
+            <div className='max-w-6xl mb-7 md:mt-3'>
                 <p className='mt-2'>Hello! I’m Het from, Bharuch.</p>
                 <p className='mt-2'>I am a pre final year student at DA-IICT(Dhirubhai Ambani Institute of
                     Information and Communication Technology), Gandhinagar. My current CPI is 7.66 out of 10.</p>
@@ -81,7 +81,7 @@ function About() {
 
 
             <div className='max-w-6xl mb-7'>
-                 <p>Here are a few of the other activities that I love to do!</p>
+                 <p className='md:mb-2'>Here are a few of the other activities that I love to do!</p>
                  <p><span className='text-brown font-extrabold'>&gt; </span><span className='font-semibold'> Crafting</span></p>
                  <p><span className='text-brown font-extrabold'>&gt; </span><span className='font-semibold'> Painting</span></p>
                  <p><span className='text-brown font-extrabold'>&gt; </span><span className='font-semibold'> Chess</span></p>

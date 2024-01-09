@@ -18,9 +18,9 @@ function Projects() {
   return (
 
     <>
-    <div className='font-Rubik text-black text-[19px] w-full max-w-[2000px] px-20'>
-        <h1 className='text-brown text-[50px] mt-9 flex'>Some Things I've Built <span className='block w-1/2 border-b-4 relative bottom-9 left-6'></span></h1>
-        <div className='max-w-6xl mb-7'>
+    <div className='w-full max-w-[2000px] px-20  md:px-4'>
+        <h1 className='text-brown text-[50px] mt-9 flex md:text-[40px] md:leading-none md:overflow-hidden'>Some Things I've Built <span className='block w-1/2 border-b-4 relative bottom-9 left-6 md:hidden'></span></h1>
+        <div className='max-w-6xl mb-7 md:mt-5'>
             <p className='mt-2'>Welcome to my Projects Showcase!</p>
             <p className='mt-2'>Here, you'll find the cool stuff I've created with my tech tools. 
             Take a look at the different projects that show off my creativity and skills.</p>

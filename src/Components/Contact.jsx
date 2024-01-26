@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import Footer from './Footer';
 import location1 from '../Assets/location1.svg'
@@ -10,6 +10,12 @@ import github1 from '../Assets/github1.svg'
 import linkdn1 from '../Assets/linkdn1.svg'
 
 function Contact() {
+
+  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
 
     <>
@@ -26,10 +32,10 @@ function Contact() {
         </div>
         <h3 className='text-[20px] font-semibold text-brown mt-16 mb-2'>Follow my Social Footprints</h3>
         <div className='flex gap-x-2 flex-wrap w-fit'>
-          <a className='flex' href='https://www.linkedin.com/in/het-patel-532877257/' target='_blank' rel='noreferrer'><img src={linkdn1} className='' alt="" /></a>
-          <a className='flex' href='https://www.instagram.com/hetpatel9.9/' target='_blank' rel='noreferrer'><img src={insta} alt="" /></a>
-          <a className='flex' href='https://twitter.com/hetpatel3245' target='_blank' rel='noreferrer'><img src={twitter} alt="" /></a>
-          <a className='flex' href='https://github.com/hetpatel25' target='_blank' rel='noreferrer'><img src={github1} alt="" /></a>
+          <a className='flex filter transition-all duration-300 hover:brightness-75' href='https://www.linkedin.com/in/het-patel-532877257/' target='_blank' rel='noreferrer'><img src={linkdn1} className='' alt="" /></a>
+          <a className='flex filter transition-all duration-300 hover:brightness-75' href='https://www.instagram.com/hetpatel9.9/' target='_blank' rel='noreferrer'><img src={insta} alt="" /></a>
+          <a className='flex filter transition-all duration-300 hover:brightness-75' href='https://twitter.com/hetpatel3245' target='_blank' rel='noreferrer'><img src={twitter} alt="" /></a>
+          <a className='flex filter transition-all duration-300 hover:brightness-75' href='https://github.com/hetpatel25' target='_blank' rel='noreferrer'><img src={github1} alt="" /></a>
         </div>
     </div>
 

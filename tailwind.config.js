@@ -25,7 +25,8 @@ module.exports = {
       cream: '#F9F6F0',
       beige: '#C4AE78',
       black: '#171515',
-      shadow: '#E8E4D9'
+      shadow: '#E8E4D9',
+      darkblue: '#2E2714',
     },
     fontFamily: {
       Rubik: ["Rubik", "sans-serif"],

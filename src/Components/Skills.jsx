@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Footer from './Footer';
 const importAll = (r) => r.keys().map(r);
 
@@ -9,6 +9,11 @@ const importAllWithPrefix = (prefix) => {
 
 
 function Skills() {
+
+    
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
     const lang_imgs = importAll(require.context('../Assets/lang', false, /\.(jpeg|svg)$/));
     const framework_imgs = importAll(require.context('../Assets/framework', false, /\.(jpeg|svg)$/));

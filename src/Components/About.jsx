@@ -29,19 +29,19 @@ function About() {
                 {/* first section */}
                 <div className="flex h-[600px]  items-center md:flex-col md:items-start md:h-auto">
 
-                    <div className='w-1/3 flex justify-center 2xl:w-1/2 md:w-full md:my-6'>
-                        <img src={me1} className='h-[400px] object-contain  border-black md:h-64 xl:h-[350px]' style={{ boxShadow: '12px 15px 1px 0px #D6D6D6, -12px -15px 1px 0px #D6D6D6' }} alt="" />
+                    <div className='w-1/3 flex justify-center 2xl:w-1/2 md:w-full md:my-6 md:justify-start'>
+                        <img src={me1} className='h-[400px] object-contain  border-black md:m-5 xl:h-[350px]' style={{ boxShadow: '12px 15px 1px 0px #D6D6D6, -12px -15px 1px 0px #D6D6D6' }} alt="" />
                     </div>
                     <div className='flex flex-col w-10/12 pl-12 md:w-full md:items-start md:p-0'>
 
                         <h2 className='text-[48px] text-brown mb-0 md:text-4xl md:my-1'>Hi, I'am Het Patel</h2>
-                        <h3 className='text-[32px] md:text-[28px] md:mb-2'>
+                        <h3 className='text-[32px] mb-2 md:text-[28px]'>
                             <TypeAnimation
                                 sequence={[
                                     // Same substring at the start will only be typed out once, initially
                                     'Web Developer',
                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                    'Coder',
+                                    'Competitive programmer',
                                     1000,
                                     'Graphic Designer',
                                     1000

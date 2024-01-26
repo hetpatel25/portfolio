@@ -57,8 +57,8 @@ function Navbar() {
       <Link id="contact" className="menu-item text-[22px] text-cream mb-9 " to="/projects"  onClick={handleMenu}>
         Projects
       </Link>
-      <Link className="menu-item text-[22px] text-cream mb-9" to="/resume " >Resume</Link>
-      <Link className="menu-item text-[22px] text-cream mb-9" to="/contact "  onClick={handleMenu}>Contact</Link>
+      <Link className="menu-item text-[22px] text-cream mb-9" to="/resume" onClick={handleMenu} >Resume</Link>
+      <Link className="menu-item text-[22px] text-cream mb-9" to="/contact"  onClick={handleMenu}>Contact</Link>
 
        {/* <a
         onClick={showSettings}

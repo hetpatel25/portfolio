@@ -7,7 +7,7 @@ import close from '../Assets/close-light.svg'
 
 function Card(props) {
 
-  const { title, description, img, tags, features } = props;
+  const { title, description, img, tags, features, github_link, published_link } = props;
 
   const [toggle, setToggle] = useState(false);
 
@@ -26,7 +26,7 @@ function Card(props) {
           </div>
           <div className='h-1/3'>
             <p className='px-4 pt-4 text-xl text-brown font-semibold md:px-3 md:pt-0'>{title}</p>
-            <p className='px-4 py-1 leading-5 font-light text-[15px] md:px-3 md:py-0'>{description.slice(0, 190)}...</p>
+            <p className='px-4 py-1 leading-5 font-light text-[16px] md:px-3 md:py-0'>{description.slice(0, 190)}...</p>
           </div>
           <p className='px-4 py-2 flex text-base text-brown gap-x-3 font-semibold'>{tags?.map((value, index) => {
 
@@ -44,7 +44,7 @@ function Card(props) {
         {/* box-2 */}
         <div className={`transition-all duration-500 ease-out leading-snug relative ${toggle ? 'top-[-100%]' : 'top-0'} bg-shadow h-[450px] flex flex-col justify-between p-6 overflow-x-hidden overflow-auto rounded-2xl md:px-3`}>
           <img src={close} className='w-6 sticky right-0 cursor-pointer' onClick={handleButton} alt="" />
-          <div className='text-black text-[15px]'>
+          <div className='text-black text-[16px]'>
             <p><span className='text-base text-black font-semibold'>Tools: </span>{tags?.map((value, index) => {
 
               return (
@@ -62,8 +62,8 @@ function Card(props) {
             </ul>
           </div>
           <div className='sticky bottom-0 flex '>
-            <Link className='mr-2' to=''><img src={github} alt="" /></Link>
-            <Link to=''><img src={external_link} alt="" /></Link>
+            <a className='mr-2 filter transition-all duration-300 hover:brightness-90' href={github_link} target='_blank'><img src={github} alt="" /></a>
+            <a className='filter transition-all duration-300 hover:brightness-90' href={published_link} target='_blank'><img src={external_link} alt="" /></a>
           </div>
         </div>
 

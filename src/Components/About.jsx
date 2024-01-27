@@ -30,7 +30,7 @@ function About() {
                 <div className="flex h-[600px]  items-center md:flex-col md:items-start md:h-auto">
 
                     <div className='w-1/3 flex justify-center 2xl:w-1/2 md:w-full md:my-6 md:justify-start'>
-                        <img src={me1} className='h-[400px] object-contain  border-black md:m-5 xl:h-[350px]' style={{ boxShadow: '12px 15px 1px 0px #D6D6D6, -12px -15px 1px 0px #D6D6D6' }} alt="" />
+                        <img src={me1} className='transition-all duration-700 h-[400px] object-contain  border-black md:m-5 xl:h-[350px] shadow-first hover:shadow-second' alt="" />
                     </div>
                     <div className='flex flex-col w-10/12 pl-12 md:w-full md:items-start md:p-0'>
 

@@ -33,7 +33,8 @@ module.exports = {
      },
      extend: {
       boxShadow: {
-        's': '0px 1px 2px 0px rgba(111, 91, 62, 1), 0px 0px 0px 1px rgba(111, 91, 62, 1)',
+        'first': '12px 15px 1px 0px #D5D7E1, -12px -15px 1px 0px #D5D7E1',
+        'second': '12px -15px 1px 0px #D5D7E1, -12px 15px 1px 0px #D5D7E1'
       }
     }
   },

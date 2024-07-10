@@ -72,10 +72,11 @@ function About() {
                 {/* second section */}
                 <h2 className='text-brown text-[50px] flex md:text-[40px] md:mt-10 md:leading-none md:overflow-hidden'>ABOUT ME <span className='block w-1/2 border-b-4 relative bottom-9 left-6 md:left-2 md:w-3/4'></span></h2>
                 <div className='max-w-6xl mb-7 md:mt-3'>
-                    <p className='mt-2'>Hello! I’m Het from, Bharuch.</p>
-                    <p className='mt-2'>I am a pre final year student at DA-IICT(Dhirubhai Ambani Institute of
-                        Information and Communication Technology), Gandhinagar. My current CPI is 7.66 out of 10.</p>
+                    <p className='mt-2'>Hello! I’m Het from Bharuch.</p>
+                    <p className='mt-2'>I am a final year student at DA-IICT(Dhirubhai Ambani Institute of
+                        Information and Communication Technology), Gandhinagar. My current CPI is 7.74 out of 10.</p>
                     <p className='mt-2'>I am passionate on problem-solving and web development. Apart from this I like to do the Graphic design.</p>
+                    <p className='mt-2'>I am proficient in Object-Oriented Programming (OOPs), Database Management Systems (DBMS), Computer Networks, and Data Mining.</p>
                     <p className='mt-2'>I am dedicated to delivering my best in every task I undertake, always striving to bring 100% commitment to my work.</p>
 
                     <div className='mt-2 flex gap-x-44 flex-wrap'>
@@ -88,20 +89,22 @@ function About() {
                 <h3 className='text-2xl font-semibold mb-5'>INTERESTS</h3>
                 <div className='flex w-full justify-start flex-wrap gap-x-32 gap-y-9 mb-6 md:gap-y-5'>
                     <div className='w-[320px] h-[70px] bg-shadow flex justify-start items-center px-4'>
-                        <img src={competitive_programming} alt="" />
-                        <span className='text-xl m-4'>Competitive Programming</span>
-                    </div>
-                    <div className='w-[320px] h-[70px] bg-shadow flex justify-start items-center px-4'>
                         <img src={dsa} alt="" />
                         <span className='text-xl m-4'>DSA</span>
                     </div>
                     <div className='w-[320px] h-[70px] bg-shadow flex justify-start items-center px-4'>
-                        <img src={graphic_design} alt="" />
-                        <span className='text-xl m-4'>Graphic Design</span>
+                        <img src={competitive_programming} alt="" />
+                        <span className='text-xl m-4'>Competitive Programming</span>
                     </div>
+
                     <div className='w-[320px] h-[70px] bg-shadow flex justify-start items-center px-4'>
                         <img src={web_development} alt="" />
                         <span className='text-xl m-4'>Web Development</span>
+                    </div>
+
+                    <div className='w-[320px] h-[70px] bg-shadow flex justify-start items-center px-4'>
+                        <img src={graphic_design} alt="" />
+                        <span className='text-xl m-4'>Graphic Design</span>
                     </div>
 
                 </div>
@@ -109,10 +112,10 @@ function About() {
 
                 <div className='max-w-6xl mb-7'>
                     <p className='md:mb-2'>Here are a few of the other activities that I love to do!</p>
+                    <p><span className='text-brown font-extrabold'>&gt; </span><span className='font-semibold'> Video editing</span></p>
                     <p><span className='text-brown font-extrabold'>&gt; </span><span className='font-semibold'> Crafting</span></p>
                     <p><span className='text-brown font-extrabold'>&gt; </span><span className='font-semibold'> Painting</span></p>
                     <p><span className='text-brown font-extrabold'>&gt; </span><span className='font-semibold'> Chess</span></p>
-                    <p><span className='text-brown font-extrabold'>&gt; </span><span className='font-semibold'> Video editing</span></p>
                 </div>
 
             </div>

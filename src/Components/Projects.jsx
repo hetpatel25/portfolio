@@ -55,19 +55,19 @@ const projects = [
             'Achieved 84% accuracy in predicting diamond prices'
         ]
     },
-    {
-        'title': 'My Portfolio Website',
-        'img': portfolio,
-        'description': 'This project is a personal portfolio website, designed to showcase my professional journey and accomplishments. The website is designed to be user-friendly and responsive, ensuring an excellent browsing experience across all devices.',
-        'tags': ['React', 'TailwindCSS', 'Figma', 'Frontend'],
-        'github_link': 'https://github.com/hetpatel25/portfolio',
-        'published_link': 'https://het-patel.vercel.app/',
-        'features': ['Easily navigate through all sections essential for any portfolio viewer',
-            'Clean and intuitive user interface (UI)',
-            'Responsive design',
-            'Provides an excellent browsing experience',
-        ]
-    },
+    // {
+    //     'title': 'My Portfolio Website',
+    //     'img': portfolio,
+    //     'description': 'This project is a personal portfolio website, designed to showcase my professional journey and accomplishments. The website is designed to be user-friendly and responsive, ensuring an excellent browsing experience across all devices.',
+    //     'tags': ['React', 'TailwindCSS', 'Figma', 'Frontend'],
+    //     'github_link': 'https://github.com/hetpatel25/portfolio',
+    //     'published_link': 'https://het-patel.vercel.app/',
+    //     'features': ['Easily navigate through all sections essential for any portfolio viewer',
+    //         'Clean and intuitive user interface (UI)',
+    //         'Responsive design',
+    //         'Provides an excellent browsing experience',
+    //     ]
+    // },
     {
         'title': 'Amazon Clone - Home Page',
         'img': amazon_clone,
